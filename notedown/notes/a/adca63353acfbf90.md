@@ -5,7 +5,7 @@ url: "https://mp.weixin.qq.com/s/62Oe_RivXDwjARdT5YDaBw"
 favicon: "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"
 tags: ["mysql"]
 createdAt: "2026-05-06T06:36:25.102Z"
-updatedAt: "2026-05-06T06:37:20.676Z"
+updatedAt: "2026-05-06T06:37:29.679Z"
 contentType: "markdown"
 version: 1
 byline: "小白"
@@ -40,7 +40,7 @@ mysql读写分离
 
 比如我在主库和从库都有张user表，此时有以下两条数据。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/AnAgeMhDIialGBMgribs8othEEZibKq43icqxtdL9zNgYoRJ3PVa5BEDvZcVDHS4dYz2EK4ibJeQCx25P77OKOP4LUA/640?wx_fmt=png#imgIndex=2 "数据库原始状态")
+![图片](https://raw.githubusercontent.com/hex-go/hex.note/main/notedown/assets/a/adca63353acfbf90/29e0b5dd0bbf0a4bc2e7fd698fda4b910487d4f5.png "数据库原始状态")
 
 数据库原始状态
 
@@ -87,7 +87,7 @@ mysql> show variables like "%log_bin%";
 
 可以在**主库**中通过 `show full processlist;` 查询到 binlog dump线程的存在。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/AnAgeMhDIialGBMgribs8othEEZibKq43icqp8JF6N7Aqoob8wJkgiaOjxbE4RBnDWfCJYdQpAR6m4p4iawEopzfN7GQ/640?wx_fmt=png#imgIndex=3 "主库的binlog dump线程")
+![图片](https://raw.githubusercontent.com/hex-go/hex.note/main/notedown/assets/a/adca63353acfbf90/6343a6be7171295855d60e875ee087049cf4e356.png "主库的binlog dump线程")
 
 主库的binlog dump线程
 
