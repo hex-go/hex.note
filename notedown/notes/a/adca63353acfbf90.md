@@ -3,10 +3,10 @@ id: "adca63353acfbf90"
 title: "mysql主库更新后，从库都读到最新值了，主库还有可能读到旧值吗？"
 url: "https://mp.weixin.qq.com/s/62Oe_RivXDwjARdT5YDaBw"
 favicon: "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"
-tags: ["mysql"]
+tags: ["mysql", "RAW"]
 folder: "中间件/mysql"
 createdAt: "2026-05-06T06:36:25.102Z"
-updatedAt: "2026-05-06T06:39:47.068Z"
+updatedAt: "2026-05-08T01:31:58.266Z"
 contentType: "markdown"
 version: 1
 byline: "小白"
