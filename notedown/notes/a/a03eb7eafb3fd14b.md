@@ -4,7 +4,7 @@ title: "x86系统定制"
 url: "notedown://note/a03eb7eafb3fd14b"
 tags: []
 createdAt: "2026-05-20T07:47:45.705Z"
-updatedAt: "2026-05-20T09:42:16.094Z"
+updatedAt: "2026-05-20T09:42:22.003Z"
 contentType: "html"
 version: 1
 byline: "Me"
